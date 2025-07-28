@@ -2,7 +2,7 @@
 
 ## I. Giới thiệu về Kotlin Coroutine
 
-### 1.1 Coroutine là gì?
+### 1. Coroutine là gì?
 - Couroutine là một mẫu thiết kế cho cơ chế xử lý đồng thời trên Android để đơn giản hóa mã nguồn khi thực thi bất đồng bộ
 - Coroutine giống như **light-weight thread** nhưng không phải là thread.
 - Giống thread ở chỗ:
