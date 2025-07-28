@@ -17,14 +17,14 @@
 
 ## II. Build First Coroutine with Kotlin
 
-### Thêm dependencies
+### 1. Thêm dependencies
 
 ```kotlin
 implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1'
 implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
 ```
 
-### Cấu trúc một coroutine
+### 2. Cấu trúc một coroutine
 
 ```kotlin
 GlobalScope.launch {
