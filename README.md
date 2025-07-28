@@ -103,7 +103,7 @@ println("World")
 | `Dispatchers.IO`           | Chạy trên background thread - dùng cho **I/O, DB, Networking**        |
 | `Dispatchers.Default`      | Chạy background thread - dùng cho **CPU-bound tasks**                 |
 | `newSingleThreadContext()` | Tạo **thread riêng** có tên                                            |
-| `newFixedThreadPoolContext(n)` | Tạo thread pool có **n thread chia sẻ**                         |
+| `newFixedThreadPoolContext(n)` | Tạo thread pool có **n thread**                         |
 | `Dispatchers.Unconfined`   | Chạy **ở thread gọi coroutine**, không bị "confined" (ràng buộc)      |
 
 ### 3. Default Context
